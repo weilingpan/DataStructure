@@ -1,1 +1,3 @@
-# LeetCode
+# DataStructure
+
+1. LinkedList
