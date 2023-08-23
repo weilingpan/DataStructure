@@ -28,11 +28,11 @@ print('2.11. ',bool(0.00001)) #True
 #正負號位元是 1, 表示是負數，所以只要減 1 後再做一次反向運算, 就可以得到該數的絕對值了
 #https://dev.to/codemee/python-de-wei-yuan-yun-suan-5bgb
 print('3-位元運算子')
-print('AND運算：')
-print('0 AND 0 {:5d}'.format(0 & 0))
-print('0 AND 1 {:5d}'.format(0 & 1))
-print('1 AND 0 {:5d}'.format(1 & 0))
-print('1 AND 1 {:5d}'.format(1 & 1))
+print('AND運算')
+print(f'0 AND 0 {0 & 0:5d}')
+print(f'0 AND 1 {0 & 1:5d}')
+print(f'1 AND 0 {1 & 0:5d}')
+print(f'1 AND 1 {1 & 1:5d}')
 
 print('\nOR運算：')
 print('0 OR 0 {:6d}'.format(0 | 0))
