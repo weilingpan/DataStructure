@@ -48,6 +48,14 @@ class LinkedList():
         else:
             print(f'找不到資料={rmvalue}')
 
+    def length(self):
+        ptr = self.head
+        cnt = 0
+        while ptr:
+            cnt += 1
+            ptr = ptr.next
+        return cnt
+
 if __name__ == '__main__':
     link = LinkedList()
     link.head = Node(5)
@@ -73,3 +81,5 @@ if __name__ == '__main__':
     print(f'移除某個node')
     link.rm_node(15)
     link.print_list()
+
+    print(f'計算長度:{link.length()}')
